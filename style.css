@@ -1,0 +1,145 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+H1{
+    color:#000;
+font-size: 26px;
+}
+
+H2{
+    color:#000;
+font-size: 18px;
+line-height: 1.5;
+}
+
+p{
+    color: #000;
+font-size:14px;
+line-height:1;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:#0065fc;
+}
+
+
+#containeurgroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#containeur2{
+    height:709px;
+    width:1001px;
+    background-color:#f2f2f2;
+    border-radius:24px;
+    padding: 46px 45px 52px 45px;
+}
+.containeur2{
+    height:487px;
+    width:1001px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding: 52px 0px 33px 0px;
+}
+
+  .btn_c2{
+    height:227px;
+    width:281px;
+    background-color:#ffffff;
+    border-radius:24px;
+    border:1px;
+    text-decoration: none;
+    }
+
+  .btn_c2:hover {
+    box-shadow: 2px 3px 3px 2px #deebff;
+  }
+
+  .img_c2{
+    height: 131px;
+    width: 270px;
+    border-radius:24px 24px 0px 0px;
+    padding: 5px 5.5px ;
+  }
+
+  h2.c2{
+    margin:5.5px 15px;
+  }
+
+  p.c2{
+    margin:5.5px 15px;
+  }
+
+  .fas.fa-star.bleu{
+      color: #0065fc;
+  }
+
+  .fas.fa-star{
+      color: #f2f2f2;
+  }
+  #containeur3 {
+    height:709px;
+    width:478px;
+    background-color:#f2f2f2;
+    border-radius:24px;
+    padding: 46px 43px 0px 43px;
+  }
+
+  .containeur3 {
+    height:392px;
+    width:478px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px 0px 0px 0px;
+
+  }
+
+  .btn_c3 {
+    height:165px;
+    width:392px;
+    background-color:#ffffff;
+    border-radius:24px;
+    border:1px;
+    text-decoration: none;
+    margin-bottom: 35px;;
+  }
+
+  .btn_c3:hover {
+    box-shadow: 2px 3px 3px 2px #deebff;
+  }
+
+  .img_c3{
+      float: left;
+    height: 154px;
+    width: 145px;
+    border-radius:24px 0px 0px 24px;
+    padding: 5px 5px ;
+    padding-right: 18px;
+  }
+
+  h2.c3{
+    margin:22px 18px;
+
+  }
+
+  p.c3{
+    margin:22px 18px;
+  }
+
+  p.c3stars{
+      margin-bottom: 16px;
+  }
+
