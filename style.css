@@ -10,7 +10,13 @@ font-size: 26px;
 H2{
     color:#000;
 font-size: 18px;
-line-height: 1.5;
+line-height: 1;
+}
+
+H3{
+  color:#000;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 p{
@@ -36,18 +42,18 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    margin-bottom: 63px;
 }
 #containeur2{
-    height:709px;
-    width:1001px;
+    height:628px;
+    width:881px;
     background-color:#f2f2f2;
     border-radius:24px;
-    padding: 46px 45px 52px 45px;
+    padding: 49px 37px 52px 37px;
 }
 .containeur2{
-    height:487px;
-    width:1001px;
+    height:429px;
+    width:881px;
     display: flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -55,8 +61,8 @@ a:hover{
 }
 
   .btn_c2{
-    height:227px;
-    width:281px;
+    height:201px;
+    width:250px;
     background-color:#ffffff;
     border-radius:24px;
     border:1px;
@@ -68,18 +74,18 @@ a:hover{
   }
 
   .img_c2{
-    height: 131px;
-    width: 270px;
+    height: 117px;
+    width: 239px;
     border-radius:24px 24px 0px 0px;
     padding: 5px 5.5px ;
   }
 
   h2.c2{
-    margin:5.5px 15px;
+    margin:0px 10px;
   }
 
   p.c2{
-    margin:5.5px 15px;
+    margin:5.5px 10px;
   }
 
   .fas.fa-star.bleu{
@@ -90,20 +96,20 @@ a:hover{
       color: #f2f2f2;
   }
   #containeur3 {
-    height:709px;
-    width:478px;
+    height:628px;
+    width:422px;
     background-color:#f2f2f2;
     border-radius:24px;
-    padding: 46px 43px 0px 43px;
+    padding: 49px 43px 53px 43px;
   }
 
   .containeur3 {
-    height:392px;
-    width:478px;
+    height:502px;
+    width:422px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 52px 0px 0px 0px;
+    padding: 49px 0px 33px 0px;
 
   }
 
@@ -114,7 +120,7 @@ a:hover{
     border-radius:24px;
     border:1px;
     text-decoration: none;
-    margin-bottom: 35px;;
+    margin-bottom: 30px;;
   }
 
   .btn_c3:hover {
@@ -142,4 +148,51 @@ a:hover{
   p.c3stars{
       margin-bottom: 16px;
   }
+
+/*change*/
+
+.containeurActi { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 63px;
+
+}
+.btn_Big{
+  height: 444px;
+  width:292px;
+  border-radius:24px;
+  background-color:#ffffff;
+  box-shadow:  2px 3px 3px 2px #f2f2f2;
+}
+
+.btn_Big:hover{
+  box-shadow: 2px 3px 3px 2px #deebff;
+}
+.img_Big{
+  height:395px;
+  width:292px;
+  border-radius: 24px 24px 0px 0px;
+}
+
+.btn_small{
+  height: 241px;
+  width:304px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  box-shadow:2px 3px 3px 2px #f2f2f2;
+}
+
+.btn_small:hover{
+box-shadow:2px 3px 3px 2px #deebff;
+}
+
+.img_small{
+  width: 304px;
+  border-radius: 24px 24px 0px 0px;
+}
+
+.img_small #img01{
+  height: 183px;
+}
 
