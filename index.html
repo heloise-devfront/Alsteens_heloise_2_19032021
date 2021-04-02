@@ -1,331 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;600;700;800&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/efff8bbcbb.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
 </head>
+
 <body>
-<!--Header start-->
-<header>
-    <a><img id=logo src="" alt=""></a>
-    <nav id=menu>
-        <ul>
-            <li><a class=menu href="#hébergement">Hébergements</a></li>
-            <li><a class=menu href="#hébergement">Activités</a></li>
-            <li><a href="#">s'incrire</a></li>
-        </ul>
-    </nav>
-</header>
-<!--Header end-->
-<!--Research start-->
-<section>
-    <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
-    <p>En plein centre ville ou en pleine nature</p>
-    <form>
-        <input type="text" id="ou" name="" value="Marseille, France">
-        <input type="submit" id="recherche" value="Rechercher">
-    </form>
-</section>
-<!--research end-->
-<!--Container filter start-->
-<section class="filter">
-    <ul>
-        <li><h3>filtres</h3></li>
-        <li> 
-            <a href="#">
-                <figure class="filFig">
-                    <!--icon-->
-                    <figcaption class="filFigca">
-                        <h3>Economique</h3>
-                    </figcaption>
-                </figure>
-            </a>
-        </li> <li> 
-            <a href="#">
-                <figure class="filFig">
-                    <!--icon-->
-                    <figcaption class="filFigca">
-                        <h3>Familial</h3>
-                    </figcaption>
-                </figure>
-            </a>
-        </li> <li> 
-            <a href="#">
-                <figure class="filFig">
-                    <!--icon-->
-                    <figcaption class="filFigca">
-                        <h3>Romantique</h3>
-                    </figcaption>
-                </figure>
-            </a>
-        </li> <li> 
-            <a href="#">
-                <figure class="filFig">
-                    <!--icon-->
-                    <figcaption class="filFigca">
-                        <h3>Animaux autorisés</h3>
-                    </figcaption>
-                </figure>
-            </a>
-        </li>
+    <!--Header start-->
+    <header>
+       <a href="#">
+            <img class="logo" src="images/logo/Reservia@3x.png" alt="logo" />
+        </a>
 
-    </ul>
-    <p><!--icon--> Plus de 500 logements sont disponibles dans cette ville</p>
-</section>
-<!--Container filter end-->
-<!--Container hébergement start-->
-<div class=conteneur>
-    <section class="hébergement_sec">
-<h2>Hébergement à Marseille</h2>
+        <nav class="menu">
+            <ul>
+                <li><a class="menu-Btn" href="#hébergement">Hébergements</a></li>
 
-    <ul><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Auberge de la Cannebièrre</h3>
-                        <p>Nuit à partir de <b>25€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
+                <li><a class="menu-Btn" href="#activité">Activités</a></li>
 
-                    </figcaption>
-                </figure>
-            </a>
-        </li><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Hôtel du port</h3>
-                        <p>Nuit à partir de <b>52€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
-
-                    </figcaption>
-                </figure>
-            </a>
-        </li><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Hôtel les mouettes</h3>
-                        <p>Nuit à partir de <b>76€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
-
-                    </figcaption>
-                </figure>
-            </a>
-        </li><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Hôtel de la mer</h3>
-                        <p>Nuit à partir de <b>46€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
-
-                    </figcaption>
-                </figure>
-            </a>
-        </li><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Auberge le panier</h3>
-                        <p>Nuit à partir de <b>23€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
-
-                    </figcaption>
-                </figure>
-            </a>
-        </li><li>
-            <a href="#">
-                <figure class="heberBtn">
-                    <img class="heberImg" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebièrre">
-                    <figcaption>
-                        <h3>Hôtel chez Amina</h3>
-                        <p>Nuit à partir de <b>96€</b></p>
-                        <p> <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star bleu"></i>
-                            <i class="fas fa-star"></i></p>
-                    </figcaption>
-                </figure>
-            </a>
-        </li></ul>
-        <a href="#">Afficher plus</a>
-
+                <li><a id="inscription" href="#">s'incrire</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header end-->
+ <main>    
+    <!--Research start-->
+    <section>
+        <h1>Trouvez votre Hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form clas="research">
+            <label class="research-item" for="text"><i class="fas fa-map-marker-alt"></i></label>
+                <input type="text" name="" value="Marseille, France">
+                <button id="search_btn" type="submit" >rechercher</button>  
+        </form>
     </section>
-    <aside class=popAside>
-<h2>Les Plus Populaires</h2>
-<ul>
-    <li>
-        <a>
-            <figure class=popBtn>
-                <img class=popImg src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                <figcaption class=popFig>
-                    <h3>Hotel le soleil du <br>matin</h3>
-                    <p>Nuit à partir de <b>128€</b></p>
-                    <p> <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star"></i></p>
-                </figcaption>
-            </figure>
-        </a> 
-    </li><li>
-        <a>
-             <figure class=popBtn>
-                    <img class=popImg src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                <figcaption class=popFig>
-                    <h3>Au coeur de l'eau <br>Chambres d'hôtes</h3>
-                    <p>Nuit à partir de <b>71€</b></p>
-                    <p> <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star"></i></p>
-                </figcaption>
-            </figure>
-        </a> 
-    </li><li>
-        <a>
-                <figure class=popBtn>
-                    <img class=popImg src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                <figcaption class=popFig>
-                    <h3>Hôtel tout bleu et <br> blanc</h3>
-                    <p>Nuit à partir de <b>68€</b></p>
-                    <p> <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star bleu"></i>
-                        <i class="fas fa-star"></i></p>
-                </figcaption>
-            </figure>
-        </a> 
-    </li>
-    
-</ul>
+    <!--research end-->
+    <!--Container filter start-->
+    <section class="filters">
+       
+        <ul>
+            <li>
+                <h3>Filtres</h3>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="filter-item"><i class=" fas fa-money-bill-wave "></i> </p> <p class="filter-text">Economique</p>
+                    
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="filter-item"><i class="fas fa-child"></i></p><p class="filter-text">Familial</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="filter-item"><i class="fas fa-heart"></i></p><p class="filter-text">Romantique</p>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="filter-item"><i class="fas fa-dog"></i></p><p class="filter-text">Animaux autorisés</p>
+                </a>
+            </li>
 
-    </aside>
-</div>
-<!--Container hébergement end-->
-<!--Container activités start-->
-<section class="acti_sec"> 
-    <h2>Activités à Marseille</h2>
-    <ul>
-        <li>
-            <a href="#">
-                <figure class="actiFigBig">
-                    <img class="actiImgBig" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                    <figcaption class="actiFigcap">
-                        <h4>Vieux port</h4>
-                    </figcaption>
-                </figure>
-            </a>
-        </li>
+        </ul>
+    </section>
+    <section class="disponible-section">
+        <p class="disponible-item"><i class="fas fa-info"></i></p><p>
+            Plus de 500 logements sont disponibles dans cette ville
+        </p></section>
+   
+    <!--Container filter end-->
+    <!--Container hébergement start-->
+    <div class=conteneur>
+        <aside class=populaire-Aside>
+            <h2>Les Plus Populaires        <i class="fas fa-chart-line"></i></h2>
+            <ul>
+                <li>
+                    <a>
+                        <figure class=populaire-Btn>
+                            <img class=populaire-Img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="">
+                            <figcaption class=populaire-info>
+                                <h3>Hotel le soleil du <br>matin</h3>
+                                <p>Nuit à partir de <b>128€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <figure class=populaire-Btn>
+                            <img class=populaire-Img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="">
+                            <figcaption class=populaire-info>
+                                <h3>Au coeur de l'eau <br>Chambres d'hôtes</h3>
+                                <p>Nuit à partir de <b>71€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <figure class=populaire-Btn>
+                            <img class=populaire-Img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="">
+                            <figcaption class=populaire-info>
+                                <h3>Hôtel tout bleu et <br> blanc</h3>
+                                <p>Nuit à partir de <b>68€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+        <section  id="hébergement"class="hébergement_section">
+            <h2>Hébergement à Marseille</h2>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Auberge de la Cannebièrre</h3>
+                                <p>Nuit à partir de <b>25€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit à partir de <b>52€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Hôtel les mouettes</h3>
+                                <p>Nuit à partir de <b>76€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit à partir de <b>46€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Auberge le panier</h3>
+                                <p>Nuit à partir de <b>23€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="hebergement-Btn">
+                            <img class="hebergement-Img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Auberge de la Cannebièrre">
+                            <figcaption>
+                                <h3>Hôtel chez Amina</h3>
+                                <p>Nuit à partir de <b>96€</b></p>
+                                <p> <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star bleu"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <a href="#">Afficher plus</a>
+
+        </section>
+       
+    </div>
+    <!--Container hébergement end-->
+    <!--Container activités start-->
+    <section id="activité"class="activités-section">
+        <h2>Activités à Marseille </h2> 
+        <article id="activités_art">
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure class="activité-Big">
+                            <img class="activité-Img-Big" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure class="activité-Med1">
+                            <img class="activité-Img-Med1"
+                                src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure class="activité-Small1">
+                            <img class="activité-Img-Small1"
+                                src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+    
+            </ul>
+             <ul>
+                <li>
+                    <a href="#">
+                        <figure class="activité-Big">
+                            <img class="activité-Img-Big" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+    
+             </ul>  
+             <ul>
+                <li>
+                    <a href="#">
+                        <figure class="activité-Small2">
+                            <img class="activité-Img-Small2"
+                                src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li> <li>
+                    <a href="#">
+                        <figure class="activité-Med2">
+                            <img class="activité-Img-Med2"
+                                src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+                            <figcaption class="activité-name">
+                                <h4>Vieux port</h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+
+        </article>
+        
+       
+    </section>
+    <!--Container activités end-->
+ </main>
+    <!--footer-->
+    <footer class="footer">
         <ul>
             <li>
-                <a href="#">
-                    <figure class="actiFigMed1">
-                        <img class="actiImgMed1" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                        <figcaption class="actiFigcap">
-                            <h4>Vieux port</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li><li>
-                <a href="#">
-                    <figure class="actiFigSmall1">
-                        <img class="actiImgSmall1" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                        <figcaption class="actiFigcap">
-                            <h4>Vieux port</h4>
-                        </figcaption>
-                    </figure>
-                </a>
+                <h2> A propos</h2>
             </li>
+            <li><a href="#">Fontionnements du site</a></li>
+            <li><a href="#">Conditions générales de vente</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
         </ul>
-        <li>
-            <a href="#">
-                <figure class="actiFigBig">
-                    <img class="actiImgBig" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                    <figcaption class="actiFigcap">
-                        <h4>Vieux port</h4>
-                    </figcaption>
-                </figure>
-            </a>
-        </li>
         <ul>
             <li>
-                <a href="#">
-                    <figure class="actiFigSmall2">
-                        <img class="actiImgSmall2" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                        <figcaption class="actiFigcap">
-                            <h4>Vieux port</h4>
-                        </figcaption>
-                    </figure>
-                </a>
-            </li><li>
-                <a href="#">
-                    <figure class="actiFigMed2">
-                        <img class="actiImgMed2" src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
-                        <figcaption class="actiFigcap">
-                            <h4>Vieux port</h4>
-                        </figcaption>
-                    </figure>
-                </a>
+                <h2>Nos hébergements</h2>
             </li>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Soumettre votre hôtel</a></li>
+
         </ul>
-    </ul>
-</section>
-<!--Container activités end-->
-<!--footer-->
-<footer id="footer">
-<ul>
-    <li><h2> A propos</h2></li>
-    <li><a href="#">Fontionnements du site</a></li>
-    <li><a href="#">Conditions générales de vente</a></li>
-    <li><a href="#">Données et confidentialité</a></li>
-</ul>
-<ul>
-    <li><h2>Nos hébergements</h2></li>
-    <li><a href="#">Charte qualité</a></li>
-    <li><a href="#">Soumettre votre hôtel</a></li>
-</ul>
-<ul>
-    <li><h2>Assistance</h2></li>
-    <li><a href="#">Centre d'aide</a></li>
-    <li><a href="#">Nous contacter</a></li>
-</ul>
-</footer>
-<!--footer-->
+        <ul>
+            <li>
+                <h2>Assistance</h2>
+            </li>
+            <li><a href="#">Centre d'aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+
+        </ul>
+    </footer>
+    <!--footer-->
 </body>
-</html> 
+
+</html>
