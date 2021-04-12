@@ -78,19 +78,17 @@ header {
 }
 
 .menu {
-   display: inline-flex;
-   float: right;
-  }
+   display: flex;
+   justify-content: flex-end;
+   margin-top: -30px;
+   }
 
-.menu ul li {
-  list-style-type: none;
-  display: inline;
-  margin:0px 30px 0px 30px;
+nav a{
+  padding: 0px 30px 0px 30px;
 }
-
-.menu ul li a:hover {
+nav a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 21px;
+  padding-top: 10px;
   color: #0065fc;
 }
 
@@ -106,9 +104,6 @@ header {
 
 #inscription {
   color: #0065fc;
-  float: right;
-  margin: 16px;
-  order: 2;
 }
 
 
@@ -667,14 +662,20 @@ input[value="Marseille, France"] {
   .hebergement-Btn {
       box-shadow: 3px 3px #c4c4c4;
     }
-   
+   .activités-section{
+    display:flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+   }
   .activités-section ul {
-      position:absolute;
-      display:block;
+      display:flex;
+      flex-direction: column;
+      flex-flow: column wrap;
      }
     
   .activités-section ul li {
       display:block;
+      flex-direction: column;
     }
     
   .activité-name {
@@ -760,13 +761,25 @@ input[value="Marseille, France"] {
     height: 100px; 
   }
   
-  .menu ul li a:hover {
-   border-top: none;
-   padding-top: none;
-   border-bottom: 2px solid #0065fc;
-   padding-bottom: 10px;
-   }
-  
+  .menu {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    margin-top: -30px;
+    }
+ 
+ nav a{
+   display: inline;
+   padding: 0px 50px 0px 50px;
+   line-height: 3;
+ }
+ nav a:hover {
+  border-top: none;
+  padding-top: none;
+  border-bottom: 2px solid #0065fc;
+  padding-bottom: 10px;
+ }
+ 
  
   #search_btn[type=submit] {
     width: 52px;
@@ -785,13 +798,15 @@ input[value="Marseille, France"] {
     display: table-row;
   }
   .filters ul li{
-    display: inline;
+    display: inline-flex;
+    flex-wrap: wrap;
   }
   .filters p{
     display: inline-block;
   }
   .disponible-section p {
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
   }
   .conteneur {
     width: 100%;
@@ -821,6 +836,7 @@ input[value="Marseille, France"] {
     
     .hébergement_section ul li{
       margin-left: -20%;
+      justify-content: center;
     }
     .hébergement_section h3{
       margin-left: 10px;
@@ -841,12 +857,18 @@ input[value="Marseille, France"] {
       border-radius: 24px 24px 0px 0px;
     }
     .activités-section ul {
+      display: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content:center;
       position: absolute;
-      display: block;
        }
     
     .activités-section ul li {
-      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
     }
     .activité-name {
       margin-top: -15px;
