@@ -402,7 +402,7 @@ input[value="Marseille, France"] {
 
 #activités_art>li {
     width: 24%;
-    background: greenyellow;
+    background:#fff;
 }
 
 #activités_art figure {
@@ -515,6 +515,7 @@ input[value="Marseille, France"] {
 .footer {
     width: 100%;
     background-color: #F2F2F2;
+    padding: 50px 0;
 }
 
 .footer ul {
@@ -672,22 +673,17 @@ input[value="Marseille, France"] {
     }
     #activités_art>li {
         width: 100%;
-        height: 200px;
-        margin-bottom: 240px;
+        margin-bottom: 20px;
     }
     #activités_art>li>ul>li {
         width: 100%;
-        height: 200px;
         margin-bottom: 20px;
-        background-color: #0065fc;
         display: flex;
         flex-direction: column;
         flex-flow: column wrap;
     }
     #activités_art>li>ul {
-        margin-top: -220px;
         width: 100%;
-        height: 440px;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
@@ -850,7 +846,6 @@ input[value="Marseille, France"] {
         background-color: #ffffff;
     }
     .hébergement_section ul li {
-        /* margin-left: -20%; */
         justify-content: center;
     }
     .hébergement_section h3 {
@@ -870,87 +865,32 @@ input[value="Marseille, France"] {
         width: 100%;
         border-radius: 24px 24px 0px 0px;
     }
-    .activités-section {
+    ul#activités_art {
         display: flex;
         flex-direction: column;
-        flex-flow: column wrap;
-        padding-bottom: 30px;
+        flex-wrap: wrap;
+        padding: 10px 20px;
     }
-    #activités_art>li {
-        width: 100%;
+    ul#activités_art figure {
         height: 200px;
-        margin-bottom: 240px;
     }
-    #activités_art>li>ul>li {
+    ul#activités_art>li:nth-child(2),
+    ul#activités_art>li:last-child {
+        height: auto;
+    }
+    ul#activités_art>li:nth-child(2) ul li:last-child,
+    ul#activités_art>li:last-child ul li:last-child {
+        margin-bottom: 0;
+    }
+    ul#activités_art li {
         width: 100%;
+        margin-bottom: 30px;
+    }
+    ul#activités_art li figure img {
+        height: 150px;
+    }
+    ul#activités_art>li:nth-child(2) li,
+    ul#activités_art>li:last-child li {
         height: 200px;
-        margin-bottom: 20px;
-        background-color: #0065fc;
-        display: flex;
-        flex-direction: column;
-        flex-flow: column wrap;
-    }
-    #activités_art>li>ul {
-        margin-top: -220px;
-        width: 100%;
-        height: 440px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-        flex-flow: column wrap;
-    }
-    .activité-name {
-        margin-top: -15px;
-    }
-    .activité-Big {
-        width: 90%;
-        height: 100%;
-        box-shadow: 3px 3px #c4c4c4;
-    }
-    .activité-Img-Big {
-        width: 100%;
-        height: 160px;
-    }
-    .activité-name {
-        margin-left: 10px;
-    }
-    .activité-name h4 {
-        line-height: 1;
-    }
-    .activité-Med1 {
-        width: 90%;
-        height: 100%;
-        box-shadow: 3px 3px #c4c4c4;
-    }
-    .activité-Img-Med1 {
-        width: 100%;
-        height: 160px;
-    }
-    .activité-Small1 {
-        width: 90%;
-        height: 100%;
-        box-shadow: 3px 3px #c4c4c4;
-    }
-    .activité-Img-Small1 {
-        width: 100%;
-        height: 160px;
-    }
-    .activité-Small2 {
-        width: 90%;
-        height: 100%;
-        box-shadow: 3px 3px #c4c4c4;
-    }
-    .activité-Img-Small2 {
-        width: 100%;
-        height: 160px;
-    }
-    .activité-Med2 {
-        width: 90%;
-        height: 100%;
-        box-shadow: 3px 3px #c4c4c4;
-    }
-    .activité-Img-Med2 {
-        width: 100%;
-        height: 160px;
     }
 }
