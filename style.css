@@ -9,6 +9,10 @@ li {
     margin: 0;
     padding: 0;
 }
+.headerContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 .container {
     max-width: 1400px;
@@ -49,7 +53,7 @@ p {
     color: #000;
     font-size: 14px;
     font-weight: 400;
-    line-height: 5px;
+    line-height: 7px;
 }
 
 a {
@@ -82,7 +86,6 @@ header {
     top: 0;
 }
 .headerContainer{
-    margin: 0rem;
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo empty nav inscription";
@@ -520,6 +523,7 @@ input[value="Marseille, France"] {
 
 .footer ul {
     display: inline-table;
+    justify-content: space-between;
     margin: 0px 50px 0px 50px;
 }
 
@@ -546,9 +550,11 @@ input[value="Marseille, France"] {
     }
     .populaire-Aside ul {
         display: flex;
+        justify-content: space-between;
     }
     .populaire-Aside ul li {
         display: inline-block;
+      
     }
     .populaire-Btn {
         height: 100px;
@@ -746,6 +752,7 @@ input[value="Marseille, France"] {
 }
 
 @media(min-width:320px)and (max-width:649px) {
+
     
     header {
         width: 100%;
@@ -822,6 +829,7 @@ input[value="Marseille, France"] {
     .disponible-section p {
         display: inline-flex;
         flex-wrap: wrap;
+        line-height: 15px;
     }
     .conteneur {
         width: 100%;
@@ -838,10 +846,11 @@ input[value="Marseille, France"] {
     
     .populaire-Btn {
         height: 130px;
-        width: 80%;
+        width: 100%;
     }
     .hébergement_section {
         width: 100%;
+        margin-left: -2rem;
         order: 2;
         background-color: #ffffff;
     }
@@ -856,7 +865,7 @@ input[value="Marseille, France"] {
     }
     .hebergement-Btn {
         height: 200px;
-        width: 80%;
+        width: 100%;
         margin-bottom: 50px;
         box-shadow: 3px 3px #c4c4c4;
     }
