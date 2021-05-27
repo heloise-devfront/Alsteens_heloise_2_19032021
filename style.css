@@ -539,7 +539,7 @@ input[value="Marseille, France"] {
     .conteneur {
         display: flex;
         flex-wrap: wrap;
-        margin-right: 30px;
+        margin-right: 0px;
     }
     .populaire-Aside {
         width: 100%;
