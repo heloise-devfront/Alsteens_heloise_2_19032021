@@ -9,6 +9,7 @@ li {
     margin: 0;
     padding: 0;
 }
+
 .headerContainer {
     max-width: 1400px;
     margin: 0 auto;
@@ -85,11 +86,13 @@ header {
     position: sticky;
     top: 0;
 }
-.headerContainer{
+
+.headerContainer {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo empty nav inscription";
 }
+
 .logo {
     width: 100px;
     height: auto;
@@ -108,7 +111,7 @@ header {
     margin-right: 1rem;
 }
 
-nav a{
+nav a {
     padding-right: 2rem;
     padding-left: 2rem;
     border-top: 5px solid #fff;
@@ -135,7 +138,6 @@ nav a:hover {
     padding-top: 2.5rem;
     margin-right: 1rem;
     grid-area: inscription;
-
 }
 
 
@@ -211,7 +213,6 @@ input[value="Marseille, France"] {
     color: #f2f2f2;
     display: inline;
 }
-
 
 .filters ul li {
     list-style-type: none;
@@ -308,7 +309,7 @@ input[value="Marseille, France"] {
 .hébergement_section ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .hébergement_section ul li {
@@ -405,7 +406,7 @@ input[value="Marseille, France"] {
 
 #activités_art>li {
     width: 24%;
-    background:#fff;
+    background: #fff;
 }
 
 #activités_art figure {
@@ -554,7 +555,6 @@ input[value="Marseille, France"] {
     }
     .populaire-Aside ul li {
         display: inline-block;
-      
     }
     .populaire-Btn {
         height: 100px;
@@ -645,11 +645,10 @@ input[value="Marseille, France"] {
     .populaire-Aside {
         width: 100%;
         border-radius: 0px;
-        margin-left: -5%;
+        margin-left: 0;
         padding: 5%;
         order: 1;
     }
-  
     .populaire-Btn {
         height: 130px;
         width: 90%;
@@ -680,6 +679,7 @@ input[value="Marseille, France"] {
     #activités_art>li {
         width: 100%;
         margin-bottom: 20px;
+        margin-left: 50px;
     }
     #activités_art>li>ul>li {
         width: 100%;
@@ -752,39 +752,35 @@ input[value="Marseille, France"] {
 }
 
 @media(min-width:320px)and (max-width:649px) {
-
-    
     header {
         width: 100%;
         height: 170px;
         margin: 0;
     }
-    .headerContainer{
+    .headerContainer {
         grid-template-columns: auto 1fr auto;
-        grid-template-areas: "logo empty inscription" "nav nav nav";
+        grid-template-areas: "logo empty inscription""nav nav nav";
     }
     .menu {
-       display: inline-flex;
-       flex-wrap: nowrap;
-       justify-content: center;
-       padding:0;
-       margin: 0;
-       margin-right: 0;
-       margin-top: -2rem;
-       order:2;
-       width: 100%;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        margin-right: 0;
+        margin-top: -2rem;
+        order: 2;
+        width: 100%;
     }
-    
-    .logo{
-        order:0;
+    .logo {
+        order: 0;
         padding: 0;
         padding-top: 1rem;
         margin: 0;
     }
-    .inscription{
-       order:1;
+    .inscription {
+        order: 1;
     }
-    
     nav a {
         width: 100%;
         text-align: center;
@@ -792,17 +788,12 @@ input[value="Marseille, France"] {
         padding-top: none;
         line-height: 5;
         border-bottom: 2px solid #c4c4c4;
-        
-        
     }
     nav a:hover {
         border-top: none;
         padding-top: none;
         border-bottom: 2px solid #0065fc;
-       
     }
-
-   
     #search_btn[type=submit] {
         width: 52px;
         height: 52px;
@@ -843,7 +834,6 @@ input[value="Marseille, France"] {
         padding: 5%;
         order: 1;
     }
-    
     .populaire-Btn {
         height: 130px;
         width: 100%;
